@@ -1,0 +1,36 @@
+.background-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -50px;
+  z-index: -2;
+  display: block;
+  background-image: url("../assets/images/joel-muniz-yRQ6EL25vxU-unsplash.jpg");
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(7px);
+}
+
+.dark-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.main-home section {
+  font-size: 200px;
+  color: white;
+  font-family: "Benton", sans-serif;
+  font-weight: bold;
+  letter-spacing: -20px;
+  padding: 50px;
+}

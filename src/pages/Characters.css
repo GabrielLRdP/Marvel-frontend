@@ -1,0 +1,37 @@
+.background-image {
+  background-image: url("../assets/images/collage-expression-text-different-color.jpg");
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+.characters-searchbar {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.764);
+  width: 50vw;
+  border-radius: 5px;
+}
+
+.characters-searchbar input {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.549);
+  width: 100%;
+  padding: 10px;
+}
+
+.characters-searchbar input:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
