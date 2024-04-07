@@ -12,8 +12,12 @@ const Header = () => {
           <Link to="/characters">
             <div>Personnages</div>
           </Link>
-          <div>Comics</div>
-          <div>Favoris</div>
+          <Link to="/comics">
+            <div>Comics</div>
+          </Link>
+          <Link to="/favourites">
+            <div>Favoris</div>
+          </Link>
         </nav>
       </div>
     </header>

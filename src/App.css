@@ -32,6 +32,8 @@
 
 * {
   text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
 }
 
 .container {
@@ -42,16 +44,37 @@
 body {
   font-family: "Marvel", sans-serif;
   position: relative;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Benton", sans-serif;
+  margin: auto;
+  text-align: center;
+  margin: 50px;
+  /* letter-spacing: -5px; */
+  font-stretch: condensed;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Benton", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .loading {
   margin: auto;
   font-size: 40px;
   padding-top: 50px;
-}
-h3 {
-  font-family: "Benton", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
 }

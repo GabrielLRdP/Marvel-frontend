@@ -8,24 +8,6 @@ const Home = () => {
       <section>
         MARVEL <br /> COMICS
       </section>
-      <section>
-        MARVEL <br /> COMICS
-      </section>
-      <section>
-        MARVEL <br /> COMICS
-      </section>
-      <section>
-        MARVEL <br /> COMICS
-      </section>
-      <section>
-        MARVEL <br /> COMICS
-      </section>
-      <section>
-        MARVEL <br /> COMICS
-      </section>
-      <section>
-        MARVEL <br /> COMICS
-      </section>
     </main>
   );
 };

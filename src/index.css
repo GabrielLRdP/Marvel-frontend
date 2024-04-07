@@ -3,4 +3,8 @@
 @import "./App.css";
 @import "./components/Header.css";
 @import "./pages/Characters.css";
+@import "./pages/Character.css";
 @import "./components/CharacterDisplay.css";
+@import "./components/SearchBar.css";
+@import "./pages/Comics.css";
+@import "./components/ComicDisplay.css";

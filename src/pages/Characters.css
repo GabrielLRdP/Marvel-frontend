@@ -1,5 +1,9 @@
-.background-image {
+.main-characters .background-image {
   background-image: url("../assets/images/collage-expression-text-different-color.jpg");
+}
+
+.main-characters {
+  padding-bottom: 100px;
 }
 
 .character-list {
@@ -7,31 +11,57 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-between;
+  margin-top: 20px;
+}
+
+.no-result {
+  color: white;
+  font-size: 40px;
+}
+
+.paginate-top {
   margin-top: 140px;
-}
-
-.characters-searchbar {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-  background-color: rgba(0, 0, 0, 0.764);
-  width: 50vw;
-  border-radius: 5px;
-}
-
-.characters-searchbar input {
-  background: none;
-  border: none;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.549);
   width: 100%;
-  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.characters-searchbar input:focus {
-  border: none;
-  box-shadow: none;
-  outline: none;
+.page {
+  margin: auto;
+  width: 100px;
+  color: white;
+}
+
+.navigation-arrow {
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    100deg,
+    rgba(0, 0, 0, 1) 36%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.right:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 1) 36%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.favourite-button-text {
+  color: white;
 }

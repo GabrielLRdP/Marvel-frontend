@@ -1,6 +1,6 @@
 header {
-  padding-top: 30px;
-  background: rgb(0, 0, 0);
+  height: 500px;
+  padding: 40px;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 36%,

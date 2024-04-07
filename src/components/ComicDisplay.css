@@ -1,0 +1,47 @@
+.comic-display {
+  height: 500px;
+  background-color: #00000083;
+  width: 23%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: box-shadow 0.5s ease-out;
+  -moz-transition: box-shadow 0.5s ease-out;
+  -o-transition: box-shadow 0.5s ease-out;
+  transition: box-shadow 0.5s ease-out;
+}
+
+.comic-display:hover {
+  -webkit-box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.78);
+}
+
+.comic-display h3 {
+  letter-spacing: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  height: 30px;
+  flex-wrap: nowrap;
+}
+
+.comic-display .comic-page-description {
+  color: white;
+  overflow: hidden;
+  flex: 1;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.comic-display div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.comic-display img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}

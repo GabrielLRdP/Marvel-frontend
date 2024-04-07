@@ -1,0 +1,75 @@
+.character-page {
+  min-height: 200vh;
+}
+
+.character-page-text {
+  font-size: 40px;
+  padding: 40px;
+}
+
+.comics-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 30px;
+}
+
+.comics-carousel:hover {
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.377) rgba(0, 0, 0, 0.125);
+}
+
+.comic-character-page {
+  display: flex;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  align-items: end;
+  flex-shrink: 0;
+  padding-bottom: 10px;
+}
+
+.comic-character-page img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  z-index: -1;
+}
+
+.comic-character-page p {
+  width: 100%;
+  padding-top: 20px;
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 43%,
+    rgba(253, 187, 45, 0) 100%
+  );
+}
+
+.heart-input {
+  display: none;
+  pointer-events: auto;
+}
+
+/* allows clicks on the heart icon */
+.character-display label i {
+  pointer-events: auto;
+}
+
+input:checked ~ .character-display label i {
+  color: red;
+}
+
+.heart-button {
+  font-size: 30px;
+}
+
+.is-favourite {
+  color: red;
+}

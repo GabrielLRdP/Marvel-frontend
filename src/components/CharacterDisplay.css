@@ -9,6 +9,7 @@
   -moz-transition: box-shadow 0.5s ease-out;
   -o-transition: box-shadow 0.5s ease-out;
   transition: box-shadow 0.5s ease-out;
+  position: relative;
 }
 
 .character-display:hover {
@@ -21,14 +22,40 @@
   white-space: nowrap;
   overflow: hidden;
   color: white;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  background-color: #ee171e75;
+  left: 0px;
 }
 
 .character-display .character-page-description {
   color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.493);
+  width: 100%;
+}
+
+.character-display div {
+  height: 100%;
 }
 
 .character-display img {
   width: 100%;
-  height: 70%;
+  height: 100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.character-display input {
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+  right: 20px;
 }
