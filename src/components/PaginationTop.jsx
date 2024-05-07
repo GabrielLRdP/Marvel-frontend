@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+
 const PaginationTop = ({ page, setPage, totalItems, itemPerPage }) => {
   const handlePagechange = (str) => {
     if (str === "+") {
@@ -14,7 +17,7 @@ const PaginationTop = ({ page, setPage, totalItems, itemPerPage }) => {
           handlePagechange("-");
         }}
       >
-        {"<"}
+        <FontAwesomeIcon icon={faArrowLeft} />
       </div>
       <div className="page">
         Page {page} sur {Math.ceil(totalItems / itemPerPage)}
@@ -25,7 +28,7 @@ const PaginationTop = ({ page, setPage, totalItems, itemPerPage }) => {
           handlePagechange("+");
         }}
       >
-        {">"}
+        <FontAwesomeIcon icon={faArrowRight} />
       </div>
     </div>
   );
