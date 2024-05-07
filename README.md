@@ -1,8 +1,28 @@
-# React + Vite
+# Marvel Universe Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Marvel Universe Explorer est un site web développé en React qui vous permet d'explorer l'univers Marvel. Vous pouvez découvrir les personnages emblématiques, explorer les comics les plus captivants et ajouter vos favoris.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités
+
+- **Navigation intuitive:** Accédez facilement aux différentes sections du site via le menu principal.
+- **Liste des personnages:** Explorez une liste complète des personnages Marvel avec leurs photos, noms et descriptions.
+- **Liste des comics:** Découvrez une collection de comics Marvel par ordre alphabétique, avec leurs titres, photos et descriptions.
+- **Recherche:** Utilisez le moteur de recherche pour trouver rapidement des personnages ou des comics par nom/titre.
+- **Pagination:** Naviguez facilement entre les différentes pages de résultats.
+- **Gestion des favoris:** Ajoutez vos personnages et comics préférés à vos favoris, avec une sauvegarde locale dans le navigateur.
+
+## Technologies Utilisées
+
+- **Frontend:** React.js
+- **Backend:** Node.js
+- **Base de données:** MongoDB
+- **Hébergement Frontend:** Netlify
+- **Hébergement Backend:** NorthFlank
+
+## Installation
+
+1. Clonez ce repository.
+2. Installez les dépendances du frontend et du backend en utilisant `npm install`.
+3. Lancez le frontend avec `npm start` et le backend avec `npm run start`.
