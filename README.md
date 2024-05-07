@@ -4,7 +4,7 @@
 
 Marvel Universe Explorer est un site web développé en React qui vous permet d'explorer l'univers Marvel. Vous pouvez découvrir les personnages emblématiques, explorer les comics les plus captivants et ajouter vos favoris. 
 
-## capture d'écran 
+## Capture d'écran 
 
 ![Capture](https://github.com/GabrielLRdP/Marvel-frontend/assets/149192169/544c2c30-3d83-4053-87a5-0bb7ec069bb6)
 
