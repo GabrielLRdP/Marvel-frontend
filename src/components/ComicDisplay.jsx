@@ -18,10 +18,10 @@ const ComicDisplay = ({ name, description, thumbnail, id, comics }) => {
         comics: comics,
       }}
     >
-      <div>
+      <div className="comic-container">
         <h3>{name}</h3>
         <img src={imgPath} alt="Image du personnage" />
-        <p className="comic-page-description">{description}</p>
+        {/* <p className="comic-page-description">{description}</p> */}
       </div>
     </Link>
   );
